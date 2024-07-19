@@ -7,7 +7,7 @@ public class TestGameCharacters {
         wizard.castSpell();
         wizard.attack();
         wizard.fly();
-        wizard.teleport(10, 20);
+        wizard.teleport(20, 40);
         wizard.land();
 
         // Test Case 2: Mermaid Actions
@@ -18,11 +18,11 @@ public class TestGameCharacters {
         mermaid.stopSwimming();
 
         // Test Case 3: Superhero Actions
-        Superhero superhero = new Superhero("Superman", 70, 120, "Super Strength");
+        Superhero superhero = new Superhero("Iron Man", 70, 120, "Super Strength");
         superhero.saveTheDay();
         superhero.attack();
         superhero.fly();
-        superhero.teleport(5, 15);
+        superhero.teleport(10, 25);
         superhero.land();
         superhero.swim();
         superhero.stopSwimming();
